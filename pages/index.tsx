@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Hero } from '../components/Hero'
+import { Slider } from '../components/Slider'
+import { SliderData } from '../components/SliderData'
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
         heading="Portfólio de fotos"
         message="Exemplo de frase para fotográfos"
       />
+      <Slider slides={SliderData} />
     </div>
   )
 }
