@@ -43,7 +43,7 @@ export const Navbar = () => {
             <Link href={'/#gallery'}>Galeria</Link>
           </li>
           <li className="p-4 ">
-            <Link href={'/portfolio'}>Trabalhos</Link>
+            <Link href={'/work'}>Trabalhos</Link>
           </li>
           <li className="p-4 ">
             <Link href={'/contact'}>Contato</Link>
@@ -69,16 +69,28 @@ export const Navbar = () => {
           }
         >
           <ul>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
               <Link href={'/'}>Home</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500 "
+            >
               <Link href={'/#gallery'}>Galeria</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
               <Link href={'/portfolio'}>Trabalhos</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
               <Link href={'/contact'}>Contato</Link>
             </li>
           </ul>
