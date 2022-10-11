@@ -85,7 +85,7 @@ export const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href={'/portfolio'}>Trabalhos</Link>
+              <Link href={'/work'}>Trabalhos</Link>
             </li>
             <li
               onClick={handleNav}
