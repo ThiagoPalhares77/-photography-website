@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hero } from '../components/Hero'
+import { Porftolio } from '../components/Portfolio'
 
 export default function work() {
   return (
@@ -10,6 +11,7 @@ export default function work() {
           'Aqui estão alguns de meus recentes trabalhos ao redor do mundo'
         }
       />
+      <Porftolio />
     </div>
   )
 }
