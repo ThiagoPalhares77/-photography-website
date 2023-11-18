@@ -9,6 +9,7 @@ The project simulates a portfolio of photos, to train the use of technologies in
 ## Main Project Technologies
 
 - Next.js
+- React
 - TailwindCSS
 
 ## Access the project
